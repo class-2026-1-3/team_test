@@ -1,0 +1,6 @@
+services:
+  my-web:
+    build: ./web
+    ports:
+      - "80:80"
+      
